@@ -2,7 +2,6 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 
 import { firebaseConfig } from './config'
-console.log(firebaseConfig)
 
 export const initializeDB = () => {
     if (firebase.apps.length === 0) {
